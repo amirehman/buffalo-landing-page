@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.theme-container {
+    @apply max-w-6xl mx-auto lg:px-0;
+}
+
+.title-font {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-input {
+    @apply bg-theme-mate-black w-full focus:outline-none active:outline-none p-3 border border-transparent focus:border-theme-blue text-gray-100;
+}
+
+.form-button {
+    @apply bg-theme-blue hover:bg-cyan-600 transition-all w-full focus:outline-none active:outline-none p-3 border border-transparent focus:border-theme-blue text-gray-100;
+}
+
+::placeholder {
+    @apply text-gray-600;
+}
+
+.test-link {
+    @apply w-full h-4 relative inline-block bg-red-500;
+}
