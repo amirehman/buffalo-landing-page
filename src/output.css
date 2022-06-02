@@ -659,6 +659,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 0.75rem;
 }
 
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-\[20rem\] {
+  width: 20rem;
+}
+
+.w-\[10rem\] {
+  width: 10rem;
+}
+
+.w-\[8rem\] {
+  width: 8rem;
+}
+
+.w-\[9rem\] {
+  width: 9rem;
+}
+
 .scale-150 {
   --tw-scale-x: 1.5;
   --tw-scale-y: 1.5;
@@ -1168,11 +1188,35 @@ html, body {
   .\32xl\:mt-32 {
     margin-top: 8rem;
   }
+
+  .\32xl\:mt-64 {
+    margin-top: 16rem;
+  }
+
+  .\32xl\:mt-\[50\%\] {
+    margin-top: 50%;
+  }
+
+  .\32xl\:mt-\[20\%\] {
+    margin-top: 20%;
+  }
+
+  .\32xl\:mt-\[0\%\] {
+    margin-top: 0%;
+  }
 }
 
 @media (min-width: 1800px) {
   .\33xl\:-mt-48 {
     margin-top: -12rem;
+  }
+
+  .\33xl\:-mt-72 {
+    margin-top: -18rem;
+  }
+
+  .\33xl\:-mt-80 {
+    margin-top: -20rem;
   }
 
   .\33xl\:overflow-hidden {
