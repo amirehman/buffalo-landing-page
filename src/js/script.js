@@ -1,3 +1,12 @@
+$(window).on('load', function(){
+    setTimeout(removeLoader, 100); //wait for page load PLUS two seconds.
+  });
+  function removeLoader(){
+      $( "#loader" ).fadeOut(200, function() {
+        $( "#loader" ).remove(); //makes page more lightweight
+    });
+  }
+
 // ========= Compare Image Slider Start ==========
 document.addEventListener('DOMContentLoaded', domReady);
 
