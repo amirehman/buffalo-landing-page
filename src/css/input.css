@@ -20,7 +20,7 @@ html, body {
 }
 
 .form-button {
-    @apply bg-theme-blue hover:bg-cyan-600 transition-all w-full focus:outline-none active:outline-none p-3 border border-transparent focus:border-theme-blue text-gray-100;
+    @apply bg-theme-blue hover:bg-cyan-600 transition-all w-full focus:outline-none active:outline-none p-3 border border-transparent focus:border-theme-blue text-gray-100 inline-block;
 }
 
 ::placeholder {
@@ -30,3 +30,13 @@ html, body {
 .test-link {
     @apply w-full h-4 relative inline-block bg-red-500;
 }
+
+.text-block {
+    @apply opacity-0;
+}
+
+.b-dics__slider:before {
+    width: 50px;
+    height: 50px;
+}
+
